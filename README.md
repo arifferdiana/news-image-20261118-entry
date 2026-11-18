@@ -1,15 +1,16 @@
 # The World in One Day — 18 November 2026
 
-make.fun news-image-20261118 entry: one image summing up the world's
-news of Wednesday 18 November 2026.
+A single picture of one day's world news, entered in make.fun's
+news-image-20261118 competition.
 
-The front page carries **32 stories**: a photo banner of tankers and
-warships under a burning sky, two leads — the US sinking five Iranian
-tankers and Xi opening APEC in Shenzhen as Trump and Putin arrive —
-plus 15 world stories and 15 Indonesian stories in a dense
-three-column broadsheet, all set in real type so every headline stays
-legible.
+The broadsheet holds 32 stories from Wednesday 18 November 2026.
+Across the top runs a banner photograph of tankers and warships
+under a burning sky. The two lead items are Washington sinking five
+Iranian tankers, and Xi Jinping opening APEC in Shenzhen as Trump
+and Putin arrive. Fifteen more stories cover the rest of the world
+and fifteen cover Indonesia, set in three dense columns of real
+type so each headline can still be read.
 
-`main.py` (Python 3.13 stdlib only) copies the bundled `frontpage.jpg`
-(1024×1024, under 1 MiB) to `/output/entry.png`, byte for byte, on
-every run.
+Running `main.py` (Python 3.13, standard library only) places the
+bundled `frontpage.jpg` — 1024 by 1024 pixels, under one mebibyte —
+at `/output/entry.png`, byte for byte, every time.
